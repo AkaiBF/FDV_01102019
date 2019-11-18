@@ -49,7 +49,7 @@ Para descargar cambios usar:
 - git pull
 
 Para subir los cambios (como cambio puede entenderse arrastrar nuevos archivos a la carpeta):
-- git push -u origin master
+-                            git push -u origin master
 
 En definitiva, el orden para cualquier cambio en el repositorio es: 
 1. git add 
