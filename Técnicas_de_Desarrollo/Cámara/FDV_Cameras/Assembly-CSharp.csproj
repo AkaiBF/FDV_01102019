@@ -59,6 +59,7 @@
      <Compile Include="Assets\FrogController.cs" />
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\MaskGuyController.cs" />
+     <Compile Include="Assets\Spike.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Naxware/source/repos/FDV/FDV_01102019/Técnicas_de_Desarrollo/Cámara/FDV_Cameras/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

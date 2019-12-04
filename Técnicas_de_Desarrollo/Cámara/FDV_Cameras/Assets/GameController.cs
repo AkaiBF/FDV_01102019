@@ -8,8 +8,8 @@ public class GameController : MonoBehaviour
     public GameObject camera2;
     public GameObject camera3;
     private GameObject currentCam;
-    // Start is called before the first frame update
-    void Start()
+    // Awake is called before the game starts
+    void Awake()
     {
       currentCam = camera2;
     }
@@ -39,5 +39,9 @@ public class GameController : MonoBehaviour
         {
           currentCam.GetComponent<CamNoise>().Shake(0.1f);
         }
+    }
+
+    public GameObject getCurrentCam(){
+      return currentCam;
     }
 }
